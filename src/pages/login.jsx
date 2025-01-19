@@ -24,7 +24,7 @@ const Login = () => {
     if (otp) {
       // Simulate OTP verification
       console.log("OTP entered:", otp);
-      navigate('/about')
+      navigate('/kharchra/profile');
     }
   };
 

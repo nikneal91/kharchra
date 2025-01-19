@@ -46,7 +46,7 @@ const ReactIconMap = () => {
         });
         setGreenCount(green);
         setRedCount(red);
-      }, [geoJsonData]);
+      }, []);
 
     return (
     <div className="h-screen">
@@ -66,7 +66,7 @@ const ReactIconMap = () => {
         <MapContainer
             center={[26.8467, 80.9462]} // Centered on Lucknow, UP
             zoom={7}
-            style={{ height: "100%", width: "100%" }}
+            style={{ height: "100%", width: "100%", zIndex: -1 }}
         >
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

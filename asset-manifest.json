@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kharchra/static/css/main.4a9154d4.css",
-    "main.js": "/kharchra/static/js/main.78811a6b.js",
+    "main.css": "/kharchra/static/css/main.ce6bb915.css",
+    "main.js": "/kharchra/static/js/main.a5befea4.js",
     "static/js/488.9ad50482.chunk.js": "/kharchra/static/js/488.9ad50482.chunk.js",
     "index.html": "/kharchra/index.html",
-    "main.4a9154d4.css.map": "/kharchra/static/css/main.4a9154d4.css.map",
-    "main.78811a6b.js.map": "/kharchra/static/js/main.78811a6b.js.map",
+    "main.ce6bb915.css.map": "/kharchra/static/css/main.ce6bb915.css.map",
+    "main.a5befea4.js.map": "/kharchra/static/js/main.a5befea4.js.map",
     "488.9ad50482.chunk.js.map": "/kharchra/static/js/488.9ad50482.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a9154d4.css",
-    "static/js/main.78811a6b.js"
+    "static/css/main.ce6bb915.css",
+    "static/js/main.a5befea4.js"
   ]
 }

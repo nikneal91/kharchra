@@ -5,7 +5,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     const handleNavigate = () => {
-      navigate("/kharchra//login"); // Navigate to the About page
+      navigate("/kharchra/login"); // Navigate to the About page
     };
 
     return (<>

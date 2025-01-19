@@ -17,19 +17,19 @@ function App() {
       <nav className="bg-gray-800 p-4 text-white">
         <ul className="flex space-x-8">
           <li>
-            <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/kharchra" className="hover:underline">Home</Link>
           </li>
           <li>
-            <Link to="/about" className="hover:underline">About</Link>
+            <Link to="/kharchra/about" className="hover:underline">About</Link>
           </li>
           <li>
-            <Link to="/profile" className="hover:underline">Profile</Link>
+            <Link to="/kharchra/profile" className="hover:underline">Profile</Link>
           </li>
           <li>
-            <Link to="/map" className="hover:underline">Map</Link>
+            <Link to="/kharchra/map" className="hover:underline">Map</Link>
           </li>
           <li>
-            <Link to="/track" className="hover:underline">TrackMe</Link>
+            <Link to="/kharchra/track" className="hover:underline">TrackMe</Link>
           </li>
     
         </ul>
@@ -37,12 +37,12 @@ function App() {
 
       <div >
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/map" element={<MapWithGeoJSON />} /> 
-          <Route path="/track" element={<TrackingPage />} /> 
+          <Route path="/kharchra/" element={<Home />} />
+          <Route path="/kharchra/about" element={<About />} />
+          <Route path="/kharchra/login" element={<Login />} />
+          <Route path="/kharchra/profile" element={<Profile />} />
+          <Route path="/kharchra/map" element={<MapWithGeoJSON />} /> 
+          <Route path="/kharchra/track" element={<TrackingPage />} /> 
           <Route path="*" element={<ErrorPage />} />
           </Routes>
       </div>

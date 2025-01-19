@@ -5,7 +5,7 @@ function App() {
   return (
     <div class="flex items-center justify-center h-screen">
     <div class="bg-white shadow-2xl rounded-lg p-8 max-w-md w-full transform transition-all duration-500 hover:scale-105">
-    <h1 class="text-2xl font-bold text-center text-green-700 mb-4 animate-pulse">🎉 Best Waster Management App is Coming! 🎉</h1>
+    <h1 class="text-2xl font-bold text-center text-green-700 mb-4 animate-pulse">🎉 Best Waste Management App is Coming! 🎉</h1>
     <p class="text-gray-700 text-center mb-6">
       Stay tuned for an announcement that will change everything. Don't miss out on the big reveal!
     </p>

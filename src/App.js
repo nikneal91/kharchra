@@ -25,7 +25,7 @@ function App() {
   return (<>
     
        <Router>
-       <nav className="fixed bottom-0 left-0 right-0 bg-white shadow-md border-t sm:hidden">
+       <nav className="fixed bottom-0 left-0 right-0 bg-white shadow-md border-t z-11  sm:hidden">
           <div className="flex justify-around items-center py-2">
             {navItems.map((item) => (
               <NavLink

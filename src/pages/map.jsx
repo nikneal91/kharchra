@@ -49,8 +49,8 @@ const ReactIconMap = () => {
       }, []);
 
     return (
-    <div className="h-screen">
- <div className="flex space-x-4">
+    <div className="relative h-screen z-0">
+    <div className="flex space-x-4">
         {/* Green Dustbin Card */}
         <div className="w-1/2 bg-green-100 p-4 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold text-green-700">Unfilled Dustbins</h3>
@@ -66,7 +66,7 @@ const ReactIconMap = () => {
         <MapContainer
             center={[26.8467, 80.9462]} // Centered on Lucknow, UP
             zoom={7}
-            style={{ height: "100%", width: "100%", zIndex: -1 }}
+            style={{ height: "calc(100vh - 164px)", width: "100%" }}
         >
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

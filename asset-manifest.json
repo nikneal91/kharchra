@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kharchra/static/css/main.6ab979b7.css",
-    "main.js": "/kharchra/static/js/main.2487bf9f.js",
+    "main.js": "/kharchra/static/js/main.8bc30325.js",
     "static/js/488.9ad50482.chunk.js": "/kharchra/static/js/488.9ad50482.chunk.js",
     "static/media/logo.svg": "/kharchra/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kharchra/index.html",
     "main.6ab979b7.css.map": "/kharchra/static/css/main.6ab979b7.css.map",
-    "main.2487bf9f.js.map": "/kharchra/static/js/main.2487bf9f.js.map",
+    "main.8bc30325.js.map": "/kharchra/static/js/main.8bc30325.js.map",
     "488.9ad50482.chunk.js.map": "/kharchra/static/js/488.9ad50482.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ab979b7.css",
-    "static/js/main.2487bf9f.js"
+    "static/js/main.8bc30325.js"
   ]
 }

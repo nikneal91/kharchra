@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTruck, FaHistory, FaExclamationTriangle, FaTrash, FaCommentDots, FaLightbulb } from "react-icons/fa";
+import { FaTruck, FaHistory, FaExclamationTriangle, FaTrash, FaCommentDots, FaLightbulb, FaUserCircle } from "react-icons/fa";
 
 
 const Profile = () => {
@@ -41,12 +41,7 @@ const Profile = () => {
           {/* User Profile Section */}
           <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-sm text-center">
             <div className="flex flex-col items-center">
-              <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-blue-500">
-                <img
-                  src="https://via.placeholder.com/150?text=Profile+Image"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <div className="text-green-500"><FaUserCircle  className="text-6xl" /></div>
               <h1 className="mt-4 text-xl font-semibold text-gray-800">John Doe</h1>
               <p className="text-gray-500">johndoe@example.com</p>
             </div>

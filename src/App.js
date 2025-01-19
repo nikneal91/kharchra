@@ -1,21 +1,54 @@
 import logo from './logo.svg';
 import './App.css';
+import About from './pages/about';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from './pages/home';
+import Login from './pages/login';
+import Profile from './pages/profile';
+import ErrorPage from './pages/error';
+import MapWithGeoJSON from './pages/map';
+import TrackingPage from './pages/track';
+
 
 function App() {
-  return (
-    <div class="flex items-center justify-center h-screen">
-    <div class="bg-white shadow-2xl rounded-lg p-8 max-w-md w-full transform transition-all duration-500 hover:scale-105">
-    <h1 class="text-2xl font-bold text-center text-green-700 mb-4 animate-pulse">🎉 Best Waste Management App is Coming! 🎉</h1>
-    <p class="text-gray-700 text-center mb-6">
-      Stay tuned for an announcement that will change everything. Don't miss out on the big reveal!
-    </p>
-    <div class="text-center">
-      <button class="bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-800 focus:ring focus:ring-purple-300">
-        Notify Me
-      </button>
-    </div>
-  </div>
-  </div>
+  return (<>
+    
+       <Router>
+      <nav className="bg-gray-800 p-4 text-white">
+        <ul className="flex space-x-8">
+          <li>
+            <Link to="/" className="hover:underline">Home</Link>
+          </li>
+          <li>
+            <Link to="/about" className="hover:underline">About</Link>
+          </li>
+          <li>
+            <Link to="/profile" className="hover:underline">Profile</Link>
+          </li>
+          <li>
+            <Link to="/map" className="hover:underline">Map</Link>
+          </li>
+          <li>
+            <Link to="/track" className="hover:underline">TrackMe</Link>
+          </li>
+    
+        </ul>
+      </nav>
+
+      <div >
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/map" element={<MapWithGeoJSON />} /> 
+          <Route path="/track" element={<TrackingPage />} /> 
+          <Route path="*" element={<ErrorPage />} />
+          </Routes>
+      </div>
+    </Router>
+    
+        </>
   );
 }
 
